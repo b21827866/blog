@@ -14,7 +14,7 @@ const Create = () => {
 
         setIsPending(true)
 
-        fetch('http://https://my-json-server.typicode.com/b21827866/json/', {
+        fetch('http://https://my-json-server.typicode.com/b21827866/json/blogs', {
         method: 'POST',
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(blog)

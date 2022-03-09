@@ -6,7 +6,7 @@ const BlogDetails = () => {
     const history = useHistory();
 
     const handleClick = () => {
-        fetch("http://https://my-json-server.typicode.com/b21827866/json/" + blog.id, {
+        fetch("http://https://my-json-server.typicode.com/b21827866/json/blogs/" + blog.id, {
             method: "DELETE"
         }).then(() => {
             history.push("/");
@@ -14,7 +14,7 @@ const BlogDetails = () => {
     }
 
     const {id} = useParams();
-    const {data: blog, error, isPending} = useFetch("http://https://my-json-server.typicode.com/b21827866/json/" + id)
+    const {data: blog, error, isPending} = useFetch("http://https://my-json-server.typicode.com/b21827866/json/blogs/" + id)
     return ( 
         <div className="blog-details">
             { isPending && <div>Loading..</div> }
