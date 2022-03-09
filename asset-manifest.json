@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//:b21827866.github.io/blog/static/css/main.b91fa370.css",
+    "main.js": "/https//:b21827866.github.io/blog/static/js/main.681dd404.js",
+    "index.html": "/https//:b21827866.github.io/blog/index.html",
+    "main.b91fa370.css.map": "/https//:b21827866.github.io/blog/static/css/main.b91fa370.css.map",
+    "main.681dd404.js.map": "/https//:b21827866.github.io/blog/static/js/main.681dd404.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b91fa370.css",
+    "static/js/main.681dd404.js"
+  ]
+}
